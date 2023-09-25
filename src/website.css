@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    position: sticky;
+    top: 0;
+}
+/*--------------------banner section---------------*/
+
+#banner{
+    background-image: linear-gradient(to right,#df5d25,#b493ea);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#tit{
+    text-align: center;
+    font-size: 10000;
+    font-weight: 800;
+    margin-top: 100px;
+}
+#dev{
+    text-align: center;
+    font-size: 6000;
+    font-weight: 600;
+    margin-top: 0;
+}
+.img-fluids{
+    position: sticky !important;
+}
+
+/*-------------about------------*/
+
+#about{
+    background-image: linear-gradient(to right,#df5d25,#b493ea);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#about p{
+    text-align: center;
+    font-size: medium;
+    margin-top: 5em;
+}
+#about h1{
+    text-align: center;
+    color: #6f1798;
+}
+
+/*-------------services------------*/
+
+.img-service{
+    width: 100px;
+    margin-top: 20px;
+}
+#services{
+    padding: 20px;
+    margin-top: 2em;
+}
+#services h4{
+    padding: 5px;
+    margin-top: 25px;
+}
+.title::before{
+    content: '';
+    background: #140d17;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+#services  h1{
+    color: #6f1798;
+}
+
+/*-------------contact------------*/
+
+#contact{
+    background-image: linear-gradient(to right,#df5d25,#b493ea);
+    padding: 100px 0;
+}
+#contact h1{
+    text-align: center;
+    color: #6f1798;
+}
+.par1{
+    text-align: center;
+    margin-top: 2em;
+}
+.par{
+    text-align: center;
+}
+input[type=text], textarea ,input[type=email] {
+    width: 75%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    align-items: center;    
+}
+input[type=submit] {
+    background-color: #e06f1e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+#error{
+    color: rgb(12, 11, 11);
+    font-style: italic;
+}

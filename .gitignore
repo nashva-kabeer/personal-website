@@ -1,23 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+node_modules
+actions
+brototype
+Component
+Container
+ecart
+pages
+reducer
+Animation.css
+Animation.js
+Car.js
+car1.js
+carstate.js
+css.js
+football.js
+football1.js
+Garage.js
+Goal.js
+formreact.js
+header.js
+header1.js
+headercss.js
+isgoal.js
+jeep.js
+madegoal.js
+missedgoal.js
+newapp.css
+Newapp.js
+red.js
+req.js
+statechange.js
+test.js
+wecome.js
+car.css
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
